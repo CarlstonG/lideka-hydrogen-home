@@ -37,23 +37,20 @@ export default function Header({collections, storeName}) {
           }}
         >
           <div className="flex items-center justify-between w-full text-center">
-            <div className="w-20 lg:w-40">
-              <CountrySelector />
+            <div className="">
+         
+             <Navigation collections={collections} storeName={storeName} />
+              {/* <CountrySelector /> */}
               <MobileNavigation
                 collections={collections}
                 isOpen={isMobileNavOpen}
                 setIsOpen={setIsMobileNavOpen}
               />
             </div>
-            <Link
-              className="flex-grow text-3xl font-black tracking-widest uppercase"
-              to="/"
-            >
-              {storeName}
-            </Link>
+         
             <div className="flex justify-end w-20 lg:w-40">
               <Link to="/account" className="mr-2">
-                <AccountIcon />
+              <AccountIcon />
               </Link>
               <CartToggle
                 handleClick={() => {
@@ -62,7 +59,7 @@ export default function Header({collections, storeName}) {
               />
             </div>
           </div>
-          <Navigation collections={collections} storeName={storeName} />
+          {/* <Navigation collections={collections} storeName={storeName} /> */}
         </div>
       </div>
     </header>
