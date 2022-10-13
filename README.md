@@ -1,22 +1,4 @@
-# Hydrogen App
 
-Hydrogen is a React framework and SDK that you can use to build fast and dynamic Shopify custom storefronts.
-
-[Check out the docs](https://shopify.dev/custom-storefronts/hydrogen)
-
-[Run this template on StackBlitz](https://stackblitz.com/github/Shopify/hydrogen/tree/stackblitz/templates/demo-store)
-
-## What's in this template
-
-- Styling with [Tailwind](https://tailwindcss.com/)
-- End-to-end testing with [Playwright](https://playwright.dev)
-- Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
-- Code formatting with [Prettier](https://prettier.io)
-- Javascript linting with [ESLint](https://eslint.org) and the Hydrogen [ESLint plugin](https://github.com/Shopify/hydrogen/tree/main/packages/eslint-plugin)
-
-## Getting started
-
-**Requirements:**
 
 - Node.js version 16.5.0 or higher
 - Yarn
